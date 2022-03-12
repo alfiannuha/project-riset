@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2017"
+    ],
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "src",
+    "face-api.js-react"
+  ],
+  "exclude": [
+    ".cache",
+    "generated",
+    "node_modules",
+    "public",
+    "static"
+  ],
+}
